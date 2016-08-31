@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1412002616 source:c:\users\bruno\google drive\grade 11\computer science\resources\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1412002618 c:\users\bruno\google drive\grade 11\computer science\resources\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1412002618 source:c:\users\bruno\google drive\grade 11\computer science\resources\main.cpp
+	<iostream>
+	"lodepng.h"
+
+1412002616 source:c:\users\bruno\google drive\grade 11\computer science\other\box blur\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1412002618 c:\users\bruno\google drive\grade 11\computer science\other\box blur\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1412265937 source:c:\users\bruno\google drive\grade 11\computer science\other\box blur\main.cpp
+	<iostream>
+	"lodepng.h"
+
+1412002616 source:c:\users\bruno\google drive\grade 11\computer science\other\programming basics 2\box blur\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1412002618 c:\users\bruno\google drive\grade 11\computer science\other\programming basics 2\box blur\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1412364582 source:c:\users\bruno\google drive\grade 11\computer science\other\programming basics 2\box blur\main.cpp
+	<iostream>
+	"lodepng.h"
+
+1412002616 source:c:\users\bruno\google drive\grade 11\computer science\other\programming basics 2\box blur - advanced\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1412002618 c:\users\bruno\google drive\grade 11\computer science\other\programming basics 2\box blur - advanced\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1412817364 source:c:\users\bruno\google drive\grade 11\computer science\other\programming basics 2\box blur - advanced\main.cpp
+	<iostream>
+	"lodepng.h"
+
