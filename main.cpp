@@ -44,7 +44,7 @@ int main()
     }
     vector<vector <vector <unsigned char> > > blurred;
 
-    /*//faster using vertical and horizontal blur
+    //faster using vertical and horizontal blur
     blurred.resize(height);
     for (int c=0;c<4;c++)
     {
@@ -85,46 +85,6 @@ int main()
                 }
                 blurred[x][y][c]=accumulation/weights;
              }
-        }
-    }*/
-
-
-
-    //inefficient algorithm using sliding window
-    blurred.resize(height);
-    for (int x=0;x<height;x++)
-    {
-        blurred[x].resize(width);
-        for (int y=0;y<width;y++)
-        {
-            //ensure radius stays within image
-            int startx=x-radius;
-            int starty=y-radius;
-            int endx=x+radius;
-            int endy=y+radius;
-            if (startx<0)
-                startx=0;
-            if (starty<0)
-                starty=0;
-            if (endx>height-1)
-                endx=height-1;
-            if (endy>width-1)
-                endy=width-1;
-
-            blurred[x][y].resize(4);
-            for (int colour=0;colour<4;colour++)
-            {
-                int total=0,counter=0;
-                for (int i=startx;i<endx;i++)
-                {
-                    for (int j=starty;j<endy;j++)
-                    {
-                        total+=original[i][j][colour] ;
-                        counter++;
-                    }
-                }
-                blurred[x][y][colour]=total/counter;
-            }
         }
     }
 
